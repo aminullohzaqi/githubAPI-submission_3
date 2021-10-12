@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingStart="50dp"
+    android:paddingEnd="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.SettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="?attr/title_settings"
+        android:text="@string/preference_language"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:id="@+id/language_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language_setting"
+            android:textColor="?attr/text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chosen_language"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="?attr/title_settings"
+        android:text="@string/preference_theme"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:id="@+id/theme_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/theme_setting"
+            android:textColor="?attr/text"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/theme_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chosen_theme"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

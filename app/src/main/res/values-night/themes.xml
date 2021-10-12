@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyGithubUser2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/grey_700</item>
+        <item name="colorPrimaryVariant">@color/grey_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="github_icon">@drawable/githublogodark</item>
+        <item name="button_clear">@drawable/ic_baseline_clear_dark</item>
+        <item name="search_icon">@drawable/ic_baseline_search_24</item>
+        <item name="title_settings">@color/teal_200</item>
+        <item name="text">@color/white</item>
+    </style>
+</resources>

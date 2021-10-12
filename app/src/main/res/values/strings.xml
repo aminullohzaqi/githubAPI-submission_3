@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Github User</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="hint">Search Username</string>
+    <string name="item_name">Aminulloh Zaqi D</string>
+    <string name="detail_name">Aminulloh Zaqi D</string>
+    <string name="detail_username">aminullohzaqi</string>
+    <string name="detail_repository">8</string>
+    <string name="repository">Repository</string>
+    <string name="detail_follower">25</string>
+    <string name="follower">Followers</string>
+    <string name="detail_following">30</string>
+    <string name="following">Following</string>
+    <string name="follower_label">Followers</string>
+    <string name="following_label">Following</string>
+    <string name="preference_language">Language</string>
+    <string name="language_setting">Change Preference Language</string>
+    <string name="chosen_language">English</string>
+    <string name="share">Share</string>
+    <string name="click">Click</string>
+    <string name="search_user">For Search User</string>
+    <string name="not_found">Not Found</string>
+    <string name="added_success">Added Successfully</string>
+    <string name="restart">Restart App To See The Changes</string>
+    <string name="github_user_title" translatable="false">Github User App</string>
+    <string name="item_url" translatable="false">https://girhub/Aminulloh-Zaqi</string>
+    <string name="favorite">favorite</string>
+    <string name="favorite_user" translatable="false">Favorite User</string>
+    <string name="settings_activity">Settings</string>
+    <string name="preference_theme">Theme</string>
+    <string name="theme_setting">Theme Preference</string>
+    <string name="choose_language">Language Preference</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="choose">Choose</string>
+    <string name="chosen_theme">Off</string>
+    <string name="choose_theme">Theme Preference</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="clear">Clear</string>
+</resources>
